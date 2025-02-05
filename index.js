@@ -2,7 +2,7 @@ function openCity(evt, cityName) {
     var i, tabcontent, manulinks;
     tabcontent = document.getElementsByClas sName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].classList.remove("active");
+        tabcontent[i].classList.remove("active"); 
     }
     manulinks = document.getElementsByClassName("manulinks");
     for (i = 0; i < manulinks.length; i++) {
